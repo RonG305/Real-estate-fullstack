@@ -35,7 +35,7 @@ const HouseCard = (props) => {
     return (  
         <Link to={`${id}`} className='relative w-full p-3 duration-300 border rounded-xl hover:scale-105'>
             <img
-                 src={houseImage} alt={house_title} className='object-cover w-full h-64 gap-4 rounded-xl house-image '
+                 src='/mansion3.jpg' alt={house_title} className='object-cover w-full h-64 gap-4 rounded-xl house-image '
             />
             
             <p className='absolute px-5 py-1 bg-blue-300 rounded top-6 left-6'>{category}</p>
