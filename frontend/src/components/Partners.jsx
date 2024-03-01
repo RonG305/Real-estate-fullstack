@@ -1,4 +1,4 @@
-import { partners } from "../assets/partners"
+// import { partners } from "../assets/partners"
 
 
 const Partners = () => {
@@ -12,9 +12,9 @@ const Partners = () => {
         <div className={containerStyles}>
             <h1 className={comparyTextStyle}>{ companyText}</h1>
             <div className={patnersStyles}>  
-            {partners.map((partner) => 
+            {/* {partners.map((partner) => 
                 <img className=" w-40 rounded-md " key={partner.id} src={partner.logo} alt="logo" />
-            )}
+            )} */}
             </div>
         </div>
         

@@ -16,7 +16,7 @@ const HomePage = () => {
     return (
         <>
             <Hero />
-            <Partners />
+            {/* <Partners /> */}
             <Services />
             <MainSearch />
             <Statistics />

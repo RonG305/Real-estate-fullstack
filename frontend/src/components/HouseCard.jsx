@@ -4,7 +4,7 @@ import {HiLocationMarker} from 'react-icons/hi'
 import { FaShower, FaBed, FaTape, FaHeart } from 'react-icons/fa'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 
 const HouseCard = (props) => {
@@ -34,7 +34,7 @@ const HouseCard = (props) => {
     
     return (  
         <Link to={`${id}`} className='relative w-full p-3 duration-300 border rounded-xl hover:scale-105'>
-            <LazyLoadImage
+            <img
                  src={houseImage} alt={house_title} className='object-cover w-full h-64 gap-4 rounded-xl house-image '
             />
             
